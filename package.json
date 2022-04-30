@@ -1,13 +1,12 @@
 {
   "name": "pokemon-tcg-api",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A Simple nodejs api for https://pokemontcg.io/",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc"
+    "prepublishOnly": "tsc"
   },
-  "prepublish": "tsc",
   "repository": {
     "type": "git",
     "url": "git@github.com:2000Slash/pokemon-tcg-api.git"
