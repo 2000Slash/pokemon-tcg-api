@@ -7,6 +7,11 @@
   "scripts": {
     "build": "tsc"
   },
+  "prepublish": "tsc",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:2000Slash/pokemon-tcg-api.git"
+  },
   "keywords": [],
   "author": "Nils Hartmann",
   "license": "ISC",
